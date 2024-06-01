@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body, html {
+    background-color: #1a1a1a;
+    padding: 10px 20px; 
+    color: white;
+}
+
+img {
+    max-width: 260px;
+    height: auto;
+    margin: 10px auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vert {
+    color: green;
+}
+
+.blanc {
+    color: white;
+}
+
+.rouge {
+    color: red;
+}
+
+.vert, .blanc, .rouge {
+    font-size: 2em;
+    margin: 50px 0;
+}
+
